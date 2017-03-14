@@ -12,4 +12,4 @@ Object.defineProperty(obj, 'print', {
 
 obj.print; // logs "printed"
 obj.print = 5; // logs 5
-Object.keys(obj);
+Object.keys(obj); // ['print']
